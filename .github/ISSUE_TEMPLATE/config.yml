@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Purchase, refund or billing problem
+    url: https://support.google.com/googleplay/answer/2479637
+    about: Purchases are handled entirely by Google Play. Refunds must be requested through Google, not here.
+  - name: Question about privacy
+    url: https://github.com/FirefliesStudios/liquid-launcher-tv/blob/main/PRIVACY.md
+    about: What the app does and does not collect.

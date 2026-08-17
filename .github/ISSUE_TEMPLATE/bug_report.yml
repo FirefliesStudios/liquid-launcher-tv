@@ -1,0 +1,90 @@
+name: Bug report
+description: Something in Liquid Launcher TV is broken or behaving unexpectedly
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        TV hardware varies a lot and most bugs turn out to be device-specific — the device and version fields below are what make a fix possible, so please fill them in.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched [existing issues](../../issues?q=is%3Aissue) and this isn't already reported
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+      placeholder: When I hold OK on a dock app and press Back, focus jumps to the first grid app instead of returning to the app I long-pressed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact remote presses, if you can. "Hold OK", "press DOWN twice", etc.
+      placeholder: |
+        1. Focus the third app in the dock
+        2. Hold OK for ~2 seconds
+        3. Press Back
+        4. Focus is now on the app grid
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Exact model. Settings → System → About on most TVs.
+      placeholder: Chromecast with Google TV (4K) / NVIDIA Shield TV Pro / TCL 55C845 / Fire TV Stick 4K Max
+    validations:
+      required: true
+
+  - type: input
+    id: android-version
+    attributes:
+      label: Android / Fire OS version
+      description: Settings → System → About → Android version
+      placeholder: Android 12 (or Fire OS 8)
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Liquid Launcher version
+      description: Settings → About in the app
+      placeholder: 1.0 (1)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often, but not always
+        - Rarely / only once
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: |
+        Screenshots or a short video of the TV help a lot for visual or focus problems.
+        If you know how to capture one, a `adb logcat` excerpt around the failure is gold.
+      placeholder: Drag images or video here.
+    validations:
+      required: false

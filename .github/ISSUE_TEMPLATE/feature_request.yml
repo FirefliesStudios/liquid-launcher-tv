@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest something Liquid Launcher TV should do
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Requests are read, and popular ones tend to get built — but no promises on timing.
+
+        Liquid Launcher aims to stay fast and uncluttered, so features that add visible complexity to the home screen face a high bar.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched [existing issues](../../issues?q=is%3Aissue) and this isn't already requested
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation you run into, not just the feature you want. It often leads to a better solution than the one first imagined.
+      placeholder: I have 40 apps and the grid takes a long time to navigate to the ones at the end.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to see?
+      placeholder: Folders on the home screen, so related apps can be grouped into one card.
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Optional, but helps if the request is hardware-specific.
+      placeholder: Chromecast with Google TV (4K)
+    validations:
+      required: false

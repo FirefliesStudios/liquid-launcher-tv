@@ -1,0 +1,103 @@
+# Liquid Launcher TV
+
+A fast, minimal liquid-glass launcher for Android TV, Google TV and Fire TV. Zero clutter, smooth navigation, deep customization — all from your remote.
+
+> **This repository is the public issue tracker and release notes for Liquid Launcher TV.**
+> The app's source code is not published here.
+
+---
+
+## Download
+
+**[Get it on Google Play](#)** — *link at launch*
+
+Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chromecast with Google TV, Google TV Streamer, and Fire TV.
+
+---
+
+## Features
+
+### Home screen
+- **Top bar** — clock and date (12h/24h) with a Control Center for Wi-Fi, Display & Sound, Google TV Home, Screensaver, Preferences, and System Settings
+- **Continue Watching** — full-screen carousel of what to watch next from your streaming apps, toggleable and filterable per app
+- **Dock** — your top apps, fully reorderable, over a liquid-glass background
+- **App grid** — everything else, with the dock sliding up as you scroll down
+
+### Make it yours
+- Icon pack support, plus per-app custom icons
+- 16 gradient themes
+- Image and video wallpapers
+- Screensaver with clock, date, weather, and optional ambient photo mode
+- App Manager — hide apps without uninstalling, reorder anything
+
+### Controls
+- Hold **OK** on any app card for move / hide / change icon / app info
+- Optional Back button override
+- Optional Home button override (requires the accessibility service)
+- Start on boot
+
+HDMI and AV inputs appear as regular cards and can be moved or hidden like any app.
+
+---
+
+## Premium
+
+Most of the launcher is free. A one-time **$6.99** purchase unlocks:
+
+| Feature | What it does |
+|---|---|
+| **Icon Pack** | re-icon app cards from any installed pack |
+| **Ambient Mode** | photo wallpapers in the screensaver |
+| **Pick Wallpaper** | use your own image as the background |
+| **Pick Video Wallpaper** | play a looping video behind the launcher |
+
+No subscription. No ads. No tracking.
+
+---
+
+## Reporting a bug
+
+[**Open an issue**](../../issues/new/choose) using the **Bug report** template.
+
+TV hardware varies enormously and most bugs turn out to be device-specific, so including your **device model and Android version** makes a fix dramatically more likely. Please check [existing issues](../../issues) first.
+
+## Requesting a feature
+
+Use the **Feature request** template. Requests are read, and popular ones tend to get built — no promises on timing.
+
+## Support
+
+For anything not suited to a public issue — purchase problems, account questions — use the support email on the Google Play listing.
+
+Purchases and refunds are handled by Google Play, not here: [Google Play refunds](https://support.google.com/googleplay/answer/2479637).
+
+---
+
+## Releases
+
+Release notes are published under [**Releases**](../../releases).
+
+The app is distributed **exclusively through Google Play**. No APKs are published here — builds obtained anywhere else are not ours and are not supported.
+
+---
+
+## Privacy
+
+See [PRIVACY.md](PRIVACY.md).
+
+Short version: no accounts, no analytics, no ads, no tracking, and nothing about you is stored on any server. The only data leaving your TV is what the optional screensaver weather widget needs — and turning Weather off stops it entirely.
+
+---
+
+## Credits
+
+Built with Kotlin, Jetpack Compose, and Material 3 for TV.
+
+- [Backdrop](https://github.com/Kyant0/Backdrop) by Kyant0 — the liquid-glass effect — Apache 2.0
+- [Coil](https://coil-kt.github.io/coil/) — image loading — Apache 2.0
+- [Open-Meteo](https://open-meteo.com/) — weather data — CC BY 4.0
+- [Unsplash](https://unsplash.com/) — screensaver photography
+
+Full attributions are in the app under **Settings → About → Licenses & Credits**.
+
+App icons and trademarks are the property of their respective owners. Liquid Launcher TV is not affiliated with or endorsed by any third-party brand.
