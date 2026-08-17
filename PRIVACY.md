@@ -24,7 +24,7 @@ None of this is uploaded, backed up to us, or shared with anyone.
 
 ## What leaves your device
 
-Three things can cause the app to make a network request. None of them involve an account, and none of them report anything about you to us — we run no servers.
+Two features can cause the app to make a network request. Neither involves an account, and neither reports anything about you to us — we run no servers.
 
 ### Screensaver weather
 
@@ -38,17 +38,12 @@ If you don't set a weather location, the screensaver never makes any network req
 
 If **Ambient Mode** is enabled, the screensaver loads photographs from Unsplash (`images.unsplash.com`). These are ordinary image downloads and carry no information about you beyond what any web request necessarily reveals. With Ambient Mode off, no photos are fetched.
 
-### Continue Watching artwork
-
-The "Continue Watching" row shows poster art published by your streaming apps through Android's TV provider. Where an app publishes that artwork as a web address rather than a local file, displaying it means fetching the image from that app's own servers — the same servers the app itself uses. We don't choose those addresses and receive nothing from them. Turning Continue Watching off in Settings stops this entirely.
-
 Third-party services used:
 
 | Service | What it receives | When | Privacy policy |
 |---|---|---|---|
 | Open-Meteo | the city name you type, then the coordinates you chose | only if you set a weather location | https://open-meteo.com/en/terms |
 | Unsplash | nothing beyond the image request itself | only with Ambient Mode on | https://unsplash.com/privacy |
-| Your streaming apps' servers | nothing beyond the image request itself | only when Continue Watching shows artwork they publish as a web address | see each app's own policy |
 
 ---
 
