@@ -24,26 +24,22 @@ None of this is uploaded, backed up to us, or shared with anyone.
 
 ## What leaves your device
 
-There is exactly one feature that makes network requests: the **screensaver weather widget**.
+There is exactly one feature that makes network requests: the **screensaver weather widget**. It is off until you set it up.
 
-When the screensaver is showing and **Weather** is enabled, the app:
+**Your location is never detected.** There is no GPS, no location permission, and no IP-based lookup. If you want weather, you type a city name and pick it from a list — that choice, and nothing else, is what the app knows about where you are.
 
-1. Requests `https://ipwho.is/`, which reads your public IP address and returns an approximate location (city-level latitude and longitude). We never see this request; it goes directly from your TV to that service.
-2. Sends those approximate coordinates to `https://api.open-meteo.com/` to retrieve current conditions.
+When you search for a city, the text you type is sent to **Open-Meteo's geocoding service** to find matching places. When you pick one, its name and coordinates are saved on your TV. From then on the screensaver sends only those saved coordinates to **Open-Meteo** to fetch current conditions — roughly once every 30 minutes while the screensaver is showing.
 
-The coordinates are used only to display the temperature and condition on the screensaver. They are held in memory, never written to storage, and never sent anywhere else. This is an approximate, IP-derived location — the app does not request or use Android's location permission, and has no access to GPS.
-
-**You can turn this off.** Settings → Appearance → Screensaver → **Weather**. With Weather off, the screensaver makes no network requests at all.
+**To turn it off:** Settings → Appearance → **Weather Location** → *Turn off weather*. With no city set, the screensaver makes no network requests at all.
 
 Separately, if **Ambient Mode** is enabled, the screensaver loads photographs from Unsplash (`images.unsplash.com`). These are ordinary image downloads and carry no information about you beyond what any web request necessarily reveals.
 
 Third-party services used:
 
-| Service | Purpose | Privacy policy |
-|---|---|---|
-| ipwho.is | approximate location from IP | https://ipwho.is/privacy-policy |
-| Open-Meteo | weather conditions | https://open-meteo.com/en/terms |
-| Unsplash | ambient screensaver photos | https://unsplash.com/privacy |
+| Service | What it receives | When | Privacy policy |
+|---|---|---|---|
+| Open-Meteo | the city name you type, then the coordinates you chose | only if you set a weather location | https://open-meteo.com/en/terms |
+| Unsplash | nothing beyond the image request itself | only with Ambient Mode on | https://unsplash.com/privacy |
 
 ---
 
