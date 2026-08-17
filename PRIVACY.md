@@ -24,13 +24,13 @@ None of this is uploaded, backed up to us, or shared with anyone.
 
 ## What leaves your device
 
-There is exactly one feature that makes network requests: the **screensaver weather widget**. It is off until you set it up.
+There is exactly one feature that makes network requests: the **screensaver weather widget**. It is inert until you set it up.
 
-**Your location is never detected.** There is no GPS, no location permission, and no IP-based lookup. If you want weather, you type a city name and pick it from a list — that choice, and nothing else, is what the app knows about where you are.
+There's no GPS, no location permission, and no IP lookup — your location is never detected. If you want weather on the screensaver, you manually type a city and pick it from a list. That single choice is the only location information the app ever has.
 
-When you search for a city, the text you type is sent to **Open-Meteo's geocoding service** to find matching places. When you pick one, its name and coordinates are saved on your TV. From then on the screensaver sends only those saved coordinates to **Open-Meteo** to fetch current conditions — roughly once every 30 minutes while the screensaver is showing.
+The city name you type is briefly sent to Open-Meteo to look up matching places. Once you pick one, it's saved on your TV, and the screensaver sends those coordinates to Open-Meteo about every 30 minutes to fetch current conditions — nothing else, and nowhere else.
 
-**To turn it off:** Settings → Appearance → **Weather Location** → *Turn off weather*. With no city set, the screensaver makes no network requests at all.
+If you don't set a weather location, the screensaver never makes any network requests at all. To clear one: Settings → Appearance → **Weather Location** → *Turn off weather*.
 
 Separately, if **Ambient Mode** is enabled, the screensaver loads photographs from Unsplash (`images.unsplash.com`). These are ordinary image downloads and carry no information about you beyond what any web request necessarily reveals.
 
