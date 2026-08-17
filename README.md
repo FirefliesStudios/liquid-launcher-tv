@@ -2,8 +2,7 @@
 
 A fast, minimal liquid-glass launcher for Android TV, Google TV and Fire TV. Zero clutter, smooth navigation, deep customization — all from your remote.
 
-> **This repository is the public issue tracker and release notes for Liquid Launcher TV.**
-> The app's source code is not published here.
+![Liquid Launcher TV home screen](assets/home-screen.png)
 
 ---
 
