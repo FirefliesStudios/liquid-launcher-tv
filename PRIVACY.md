@@ -24,7 +24,9 @@ None of this is uploaded, backed up to us, or shared with anyone.
 
 ## What leaves your device
 
-There is exactly one feature that makes network requests: the **screensaver weather widget**. It is inert until you set it up.
+Three things can cause the app to make a network request. None of them involve an account, and none of them report anything about you to us — we run no servers.
+
+### Screensaver weather
 
 There's no GPS, no location permission, and no IP lookup — your location is never detected. If you want weather on the screensaver, you manually type a city and pick it from a list. That single choice is the only location information the app ever has.
 
@@ -32,7 +34,13 @@ The city name you type is briefly sent to Open-Meteo to look up matching places.
 
 If you don't set a weather location, the screensaver never makes any network requests at all. To clear one: Settings → Appearance → **Weather Location** → *Turn off weather*.
 
-Separately, if **Ambient Mode** is enabled, the screensaver loads photographs from Unsplash (`images.unsplash.com`). These are ordinary image downloads and carry no information about you beyond what any web request necessarily reveals.
+### Ambient Mode photos
+
+If **Ambient Mode** is enabled, the screensaver loads photographs from Unsplash (`images.unsplash.com`). These are ordinary image downloads and carry no information about you beyond what any web request necessarily reveals. With Ambient Mode off, no photos are fetched.
+
+### Continue Watching artwork
+
+The "Continue Watching" row shows poster art published by your streaming apps through Android's TV provider. Where an app publishes that artwork as a web address rather than a local file, displaying it means fetching the image from that app's own servers — the same servers the app itself uses. We don't choose those addresses and receive nothing from them. Turning Continue Watching off in Settings stops this entirely.
 
 Third-party services used:
 
@@ -40,6 +48,7 @@ Third-party services used:
 |---|---|---|---|
 | Open-Meteo | the city name you type, then the coordinates you chose | only if you set a weather location | https://open-meteo.com/en/terms |
 | Unsplash | nothing beyond the image request itself | only with Ambient Mode on | https://unsplash.com/privacy |
+| Your streaming apps' servers | nothing beyond the image request itself | only when Continue Watching shows artwork they publish as a web address | see each app's own policy |
 
 ---
 
