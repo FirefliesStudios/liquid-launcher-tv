@@ -71,12 +71,14 @@ Refunds are handled by Google Play: https://support.google.com/googleplay/answer
 
 ## Permissions
 
-| Permission | Why |
+| What the app can do | Why, and when |
 |---|---|
-| `INTERNET` | screensaver weather and ambient photos only |
-| `READ_TV_LISTINGS`, `READ_EPG_DATA`, `WRITE_EPG_DATA`, `READ_CHANNELS` | read and manage Continue Watching entries in the system TV provider |
-| `READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO`, `READ_EXTERNAL_STORAGE` (Android 12 and below) | let you pick your own wallpaper from your device |
-| `RECEIVE_BOOT_COMPLETED` | optional "Start on Boot" |
+| Use the internet | Only to fetch screensaver weather and Ambient Mode photos. With both off, the app never connects to anything. |
+| Read and update your TV's "watch next" list | To show Continue Watching, and to remove an entry when you ask it to. This list lives on your TV and is written by your streaming apps. |
+| Read photos and videos on this device | Only while you're choosing your own wallpaper. The file you pick stays on your TV. |
+| Start when your TV boots | Only if you turn on "Start on Boot" in Settings. |
+
+If you want to check these against the app itself, the underlying Android permissions are `INTERNET`; `READ_TV_LISTINGS`, `READ_EPG_DATA`, `WRITE_EPG_DATA`, `READ_CHANNELS`; `READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO`, `READ_EXTERNAL_STORAGE` (Android 12 and below); and `RECEIVE_BOOT_COMPLETED`.
 
 The app does **not** request `QUERY_ALL_PACKAGES`. To show your apps it uses a scoped `<queries>` declaration, so it can see only apps that publish a launcher or TV-input entry point — not your full installed-app list.
 
