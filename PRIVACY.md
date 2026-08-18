@@ -78,8 +78,6 @@ Refunds are handled by Google Play: https://support.google.com/googleplay/answer
 | Read photos and videos on this device | Only while you're choosing your own wallpaper. The file you pick stays on your TV. |
 | Start when your TV boots | Only if you turn on "Start on Boot" in Settings. |
 
-If you want to check these against the app itself, the underlying Android permissions are `INTERNET`; `READ_TV_LISTINGS`, `READ_EPG_DATA`, `WRITE_EPG_DATA`, `READ_CHANNELS`; `READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO`, `READ_EXTERNAL_STORAGE` (Android 12 and below); and `RECEIVE_BOOT_COMPLETED`.
-
 The app does **not** request `QUERY_ALL_PACKAGES`. To show your apps it uses a scoped `<queries>` declaration, so it can see only apps that publish a launcher or TV-input entry point — not your full installed-app list.
 
 Media you select as a wallpaper stays on your device and is never uploaded.
