@@ -98,4 +98,4 @@ If this policy changes, the updated version will be published here with a new "l
 
 ## Contact
 
-Questions about privacy: use the support email listed on the [Google Play listing](#), or [open an issue](../../issues) in this repository.
+Questions about privacy: email **firefliesstudios.ca@gmail.com**, or [open an issue](../../issues) in this repository.

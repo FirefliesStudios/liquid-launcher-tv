@@ -66,7 +66,7 @@ Use the **Feature request** template. Requests are read, and popular ones tend t
 
 ## Support
 
-For anything not suited to a public issue — purchase problems, account questions — use the support email on the Google Play listing.
+For anything not suited to a public issue — purchase problems, account questions — email **firefliesstudios.ca@gmail.com**.
 
 Purchases and refunds are handled by Google Play, not here: [Google Play refunds](https://support.google.com/googleplay/answer/2479637).
 
