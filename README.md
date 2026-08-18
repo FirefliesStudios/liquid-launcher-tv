@@ -32,7 +32,7 @@ Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chrom
 ### Controls
 - Hold **OK** on any app card for move / hide / change icon / app info
 - Optional Back button override
-- Optional Home button override (requires the accessibility service)
+- Optional Home button override — the default-launcher role, or the accessibility service on TVs where the built-in launcher takes priority for the HOME key
 - Start on boot
 
 HDMI and AV inputs appear as regular cards and can be moved or hidden like any app.
@@ -84,7 +84,7 @@ The app is distributed **exclusively through Google Play**. No APKs are publishe
 
 See [PRIVACY.md](PRIVACY.md).
 
-Short version: no accounts, no analytics, no ads, no tracking, and nothing about you is stored on any server. The only data leaving your TV is what the optional screensaver weather widget needs — and turning Weather off stops it entirely.
+Short version: no accounts, no analytics, no ads, no tracking, and nothing about you is stored on any server. Two optional features make network requests — screensaver weather, which only ever knows the city you type in yourself, and Ambient Mode photos. Neither reports anything about you, and with both off the app never goes online.
 
 ---
 
