@@ -1,6 +1,6 @@
 # Liquid Launcher TV
 
-A fast, minimal liquid-glass launcher for Android TV, Google TV and Fire TV. Zero clutter, smooth navigation, deep customization — all from your remote.
+A fast, minimal liquid-glass launcher for Android TV and Google TV. Zero clutter, smooth navigation, deep customization — all from your remote.
 
 **[fireflies-studios.ca/liquid-launcher-tv](https://fireflies-studios.ca/liquid-launcher-tv/)**
 
@@ -12,7 +12,7 @@ A fast, minimal liquid-glass launcher for Android TV, Google TV and Fire TV. Zer
 
 **[Get it on Google Play](#)** — *link at launch*
 
-Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chromecast with Google TV, Google TV Streamer, and Fire TV.
+Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chromecast with Google TV, and Google TV Streamer.
 
 ---
 
