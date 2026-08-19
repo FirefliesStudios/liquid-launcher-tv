@@ -2,6 +2,11 @@
 
 **Last updated:** 16 August 2026
 
+The published version of this policy — the one referenced by the Google Play
+listing — lives at
+**[fireflies-studios.ca/liquid-launcher-tv/privacy.html](https://fireflies-studios.ca/liquid-launcher-tv/privacy.html)**.
+This file mirrors it; if the two ever disagree, the published page is authoritative.
+
 Liquid Launcher TV ("the app") is a home-screen launcher for Android TV, Google TV and Fire TV, published by Fireflies Studios.
 
 **The app has no accounts, no analytics, no advertising, and no tracking of any kind. We operate no servers and we do not receive, store, or have access to any of your data.**
