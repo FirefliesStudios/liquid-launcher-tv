@@ -35,6 +35,10 @@ Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chrom
 - Optional Home button override — the default-launcher role, or the accessibility service on TVs where the built-in launcher takes priority for the HOME key
 - Start on boot
 
+### Languages
+Available in over 80 languages, following whatever your TV is set to. Right-to-left
+layouts (Arabic, Hebrew, Persian, Urdu) are supported.
+
 HDMI and AV inputs appear as regular cards and can be moved or hidden like any app.
 
 ---
