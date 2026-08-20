@@ -2,8 +2,6 @@
 
 A fast, minimal liquid-glass launcher for Android TV and Google TV. Zero clutter, smooth navigation, deep customization — all from your remote.
 
-**[fireflies-studios.ca/liquid-launcher-tv](https://fireflies-studios.ca/liquid-launcher-tv/)**
-
 ![Liquid Launcher TV home screen](assets/home-screen.png)
 
 ---
