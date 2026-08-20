@@ -52,6 +52,7 @@ Most of the launcher is free. A one-time **$6.99** purchase unlocks:
 | Feature | What it does |
 |---|---|
 | **Icon Pack** | re-icon app cards from any installed pack |
+| **Custom App Icons** | set a different icon for any individual app |
 | **Ambient Mode** | photo wallpapers in the screensaver |
 | **Pick Wallpaper** | use your own image as the background |
 | **Pick Video Wallpaper** | play a looping video behind the launcher |
