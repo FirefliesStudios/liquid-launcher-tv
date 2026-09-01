@@ -60,7 +60,7 @@ It is deliberately scoped as narrowly as the platform allows:
 
 - **It cannot read screen content.** The service declares `canRetrieveWindowContent="false"`, so the system never provides it with the text or contents of any window.
 - It receives only `typeWindowStateChanged` events, and only from four packages: the Google TV / Android TV launchers and Liquid Launcher itself.
-- It filters key events solely to detect Home and Back presses.
+- It filters key events solely to detect the Home key press. Nothing else is read; the Back button override is handled inside the app and never involves this service.
 
 It collects nothing, stores nothing, and transmits nothing. The service is off unless you enable it, and you can disable it at any time in your TV's Accessibility settings.
 
