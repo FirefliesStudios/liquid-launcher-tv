@@ -66,23 +66,20 @@ Still in the same browser, signed in to the same account, open:
 
 Press **Become a tester**.
 
-This step is easy to skip and nothing works without it — until you opt in here, the Play
-store page in step 3 will tell you the app does not exist.
+This step is easy to skip and nothing works without it — until you opt in here, Google
+Play will tell you the app does not exist.
 
 ---
 
 ## 3. Install it onto the TV (easiest way)
 
-Still on your phone or computer, open:
-
-**https://play.google.com/store/apps/details?id=com.jd.liquidlauncher.tv**
-
-Press **Install**, then pick your **TV** from the device list that appears.
+Once you have opted in, that same page shows a link to the app on Google Play. Follow it,
+press **Install**, then pick your **TV** from the device list that appears.
 
 The TV does not need to be on — it will install next time it is switched on and connected
 to Wi-Fi.
 
-**If the page says "item not found":** you have most likely not done step 2 yet — that is
+**If Play says "item not found":** you have most likely not done step 2 yet — that is
 the usual cause. Otherwise you are signed in to the wrong Google account, or it has not
 finished processing: wait 10-15 minutes and try again. It can occasionally take a couple
 of hours the first time.
