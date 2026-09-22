@@ -89,6 +89,12 @@ The app is distributed **exclusively through Google Play**. No APKs are publishe
 
 See [PRIVACY.md](PRIVACY.md).
 
+---
+
+## Testing
+
+Closed testing is open. Setup takes about five minutes: see [TESTING.md](TESTING.md).
+
 Short version: no accounts, no analytics, no ads, no tracking, and nothing about you is stored on any server. Two optional features make network requests — screensaver weather, which only ever knows the city you type in yourself, and Ambient Mode photos. Neither reports anything about you, and with both off the app never goes online.
 
 ---
