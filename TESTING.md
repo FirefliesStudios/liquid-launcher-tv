@@ -73,8 +73,8 @@ Play will tell you the app does not exist.
 
 ## 3. Install it onto the TV (easiest way)
 
-Once you have opted in, that same page shows a link to the app on Google Play. Follow it,
-press **Install**, then pick your **TV** from the device list that appears.
+Once you have opted in, that same page shows a **Download it on Google Play** link.
+Follow it, press **Install**, then pick your **TV** from the device list that appears.
 
 The TV does not need to be on — it will install next time it is switched on and connected
 to Wi-Fi.
