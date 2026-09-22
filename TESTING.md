@@ -54,11 +54,24 @@ Join the testers group while signed in to **the same Google account that is on y
 If it says you are already a member, that is fine — carry on.
 
 > The account matters more than anything else here. If the TV is signed in to a different
-> Google account than the one that accepted the invite, the app will never appear.
+> Google account than the one that joined the group, the app will never appear.
 
 ---
 
-## 2. Install it onto the TV (easiest way)
+## 2. Opt in to the test
+
+Still in the same browser, signed in to the same account, open:
+
+**https://play.google.com/apps/testing/com.jd.liquidlauncher.tv**
+
+Press **Become a tester**.
+
+This step is easy to skip and nothing works without it — until you opt in here, the Play
+store page in step 3 will tell you the app does not exist.
+
+---
+
+## 3. Install it onto the TV (easiest way)
 
 Still on your phone or computer, open:
 
@@ -69,9 +82,10 @@ Press **Install**, then pick your **TV** from the device list that appears.
 The TV does not need to be on — it will install next time it is switched on and connected
 to Wi-Fi.
 
-**If the page says "item not found":** you are either signed in to the wrong Google
-account, or the invite has not finished processing yet. Wait 10-15 minutes after joining
-and try again. It can occasionally take a couple of hours the first time.
+**If the page says "item not found":** you have most likely not done step 2 yet — that is
+the usual cause. Otherwise you are signed in to the wrong Google account, or it has not
+finished processing: wait 10-15 minutes and try again. It can occasionally take a couple
+of hours the first time.
 
 > **The app may not be called "Liquid Launcher TV" yet.** Until Google finishes reviewing
 > it, the store shows a placeholder name — `com.jd.liquidlauncher.tv (unreviewed)`. That is
@@ -87,7 +101,7 @@ computer method above instead. That always works.
 
 ---
 
-## 3. Open it
+## 4. Open it
 
 After installing, find **Liquid Launcher TV** in your TV's apps row and open it.
 
@@ -137,4 +151,5 @@ the Play Store on the TV, go to **My apps**, and check for updates.
 
 ## Leaving the test
 
-Leave the group from step 1. The test build will be removed at the next update.
+Open the step 2 link again and choose **Leave the programme**, then leave the group from
+step 1. The test build will be removed at the next update.
