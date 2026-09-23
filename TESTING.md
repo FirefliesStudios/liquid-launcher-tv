@@ -37,14 +37,14 @@ Persian and Urdu lay out right-to-left as they should.
 — unlocks your own photo or a looping video as the wallpaper, icon packs, a custom icon
 for any single app, and the ambient photo screensaver.
 
-**Those are free for you, and worth trying.** Everyone in the testers group is set up so
-the purchase runs as a test: the flow works, the features unlock, and nothing is charged.
-Billing is the part that is hardest for me to test on my own, so exercising it genuinely
-helps.
+**They are free if you want to try them — just ask first.** Tell me and I will add your
+Google account to the test list; the purchase then runs as a test, the features unlock,
+and nothing is charged. Billing is the part hardest for me to test alone, so anyone
+willing to exercise it is genuinely useful.
 
-> **Check before you confirm.** The payment method should read *"Test card, always
-> approves"*. If it shows your own card instead, stop and tell me — that means the setup
-> is wrong at my end, and you should not be charged for testing this.
+> **Do not buy it without asking.** Until I have added your account you would be charged
+> for real, at the normal price. Once you are on the list, the payment method reads *"Test
+> card, always approves"* — if it shows your own card instead, stop and tell me.
 
 **Privacy.** No account, no sign-in, no adverts, no tracking, and nothing about you is
 sent anywhere. Only two things ever go online: the screensaver weather, which knows only
