@@ -37,14 +37,15 @@ Persian and Urdu lay out right-to-left as they should.
 — unlocks your own photo or a looping video as the wallpaper, icon packs, a custom icon
 for any single app, and the ambient photo screensaver.
 
-**They are free if you want to try them — just ask first.** Mail me the Google account
-you use on the TV, the same one you joined the group with, and I will add it to the test
-list. The purchase then runs as a test: the flow works, the features unlock, and nothing
-is charged. Billing is the part hardest for me to test on my own, so anyone willing to
-exercise it is genuinely useful.
+**They are free if you want to try them — just ask first.** Send me a photo or screenshot
+of it running on your TV along with the Google account, to
+**firefliesstudios.ca@gmail.com**, and I will add you to the test list. The purchase then
+runs as a test: the flow works, the features unlock, and nothing is charged. Billing is
+the part hardest for me to test on my own, so anyone willing to exercise it is genuinely
+useful.
 
-It has to be that exact account. Adding a different address of yours does nothing — Play
-checks the account signed in on the device that makes the purchase.
+It has to be the account you actually use on that TV. A different address of yours does
+nothing — Play checks the account signed in on the device making the purchase.
 
 > **Do not buy it without asking.** Until I have added your account you would be charged
 > for real, at the normal price. Once you are on the list, the payment method reads *"Test
