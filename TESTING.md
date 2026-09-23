@@ -35,8 +35,16 @@ Persian and Urdu lay out right-to-left as they should.
 
 **Free vs paid.** The launcher is free and stays free. One purchase — not a subscription
 — unlocks your own photo or a looping video as the wallpaper, icon packs, a custom icon
-for any single app, and the ambient photo screensaver. **Please do not buy anything to
-test it.** Tell me if you want a paid feature switched on and I will do it for free.
+for any single app, and the ambient photo screensaver.
+
+**Those are free for you, and worth trying.** Everyone in the testers group is set up so
+the purchase runs as a test: the flow works, the features unlock, and nothing is charged.
+Billing is the part that is hardest for me to test on my own, so exercising it genuinely
+helps.
+
+> **Check before you confirm.** The payment method should read *"Test card, always
+> approves"*. If it shows your own card instead, stop and tell me — that means the setup
+> is wrong at my end, and you should not be charged for testing this.
 
 **Privacy.** No account, no sign-in, no adverts, no tracking, and nothing about you is
 sent anywhere. Only two things ever go online: the screensaver weather, which knows only
