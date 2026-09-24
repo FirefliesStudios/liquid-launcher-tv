@@ -103,7 +103,7 @@ Short version: no accounts, no analytics, no ads, no tracking, and nothing about
 
 Built with Kotlin, Jetpack Compose, and Material 3 for TV.
 
-- [Backdrop](https://github.com/Kyant0/Backdrop) by Kyant0 — the liquid-glass effect — Apache 2.0
+- [Backdrop](https://github.com/Kyant0/Backdrop) — the liquid-glass effect — Apache 2.0
 - [Coil](https://coil-kt.github.io/coil/) — image loading — Apache 2.0
 - [Open-Meteo](https://open-meteo.com/) — weather data — CC BY 4.0
 - [Unsplash](https://unsplash.com/) — screensaver photography
