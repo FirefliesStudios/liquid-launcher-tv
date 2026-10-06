@@ -2,7 +2,7 @@
 
 A fast, minimal liquid-glass launcher for Android TV and Google TV. Zero clutter, smooth navigation, deep customization — all from your remote.
 
-![Liquid Launcher TV home screen](assets/home-screen.png)
+![Liquid Launcher TV home screen](assets/play-hero.png)
 
 ---
 
