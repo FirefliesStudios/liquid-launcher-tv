@@ -20,9 +20,12 @@ What you will see:
 - **Continue watching** — a full-screen row of what to pick up next, gathered from the
   streaming apps you already use. It can be switched off if you would rather have a
   clean background.
-- **A dock you arrange** — your most-used apps along the bottom. Hold **OK** on any card
-  to move it, hide it, or open its app info. Scroll down and the dock slides away to
-  show every app you have.
+- **A dock you arrange** — your six favourite apps along the bottom. Hold **OK** on any
+  card to move it, add it to a folder, change its icon or open its app info; App Manager
+  (in the same menu) picks favourites, organises folders and hides apps. Scroll down and
+  the dock slides away to show every app and folder you have.
+- **A top bar your way** — just the time, or weather, search, the date and app shortcuts
+  beside it.
 - **Themes and a screensaver** — sixteen background gradients, and a screensaver with
   the clock, date and your local weather. Both free.
 - **Remote buttons** — options for what the Home and Back buttons do, and whether the
@@ -35,7 +38,8 @@ Persian and Urdu lay out right-to-left as they should.
 
 **Free vs paid.** The launcher is free and stays free. One purchase — not a subscription
 — unlocks your own photo or a looping video as the wallpaper, icon packs, a custom icon
-for any single app, and the ambient photo screensaver.
+for any single app, transparent icons, your own pictures for apps, the ambient photo
+screensaver, and four top bar shortcuts instead of two.
 
 **They are free if you want to try them — just ask first.** Send me a photo or screenshot
 of it running on your TV along with the Google account, to

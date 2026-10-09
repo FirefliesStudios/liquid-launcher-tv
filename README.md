@@ -17,20 +17,23 @@ Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chrom
 ## Features
 
 ### Home screen
-- **Top bar** — clock and date (12h/24h) with a Control Center for Wi-Fi, Display & Sound, Google TV Home, Screensaver, Preferences, and System Settings
-- **Continue Watching** — full-screen carousel of what to watch next from your streaming apps, toggleable and filterable per app
-- **Dock** — your top apps, fully reorderable, over a liquid-glass background
+- **Top bar** — Minimal (the time, 12h/24h) or Custom with weather, search, the date and app shortcuts; the options button opens Preferences, Wi-Fi, Display & Sound, Screensaver, Google TV Home and System Settings
+- **Continue Watching** — full-screen carousel of what to watch next from your streaming apps, with Immersive Mode, title size and description length
+- **Dock** — your six favourite apps, fully reorderable, over a liquid-glass background
 - **App grid** — everything else, with the dock sliding up as you scroll down
+- **Folders** — as many as you like, each holding any number of apps
 
 ### Make it yours
-- Icon pack support, plus per-app custom icons
+- Icon pack support, plus per-app icons with search across the whole pack
+- Transparent icons — logos without their card, on a glass plate when focused
+- Custom Images — your own picture for any app
 - 16 gradient themes
 - Image and video wallpapers
-- Screensaver with clock, date, weather, and optional ambient photo mode
-- App Manager — hide apps without uninstalling, reorder anything
+- Screensaver with clock, date, weather (°C or °F), and optional ambient photo mode
+- App Manager — choose your six favourites, organise folders, hide apps without uninstalling
 
 ### Controls
-- Hold **OK** on any app card for move / hide / change icon / app info
+- Hold **OK** on any app card for Move, Add to Folder, App Info, Change Icon and App Manager
 - Optional Back button override
 - Optional Home button override — the default-launcher role, or the accessibility service on TVs where the built-in launcher takes priority for the HOME key
 - Start on boot
@@ -45,12 +48,14 @@ HDMI and AV inputs appear as regular cards and can be moved or hidden like any a
 
 ## Premium
 
-Most of the launcher is free. A one-time **$6.99** purchase unlocks:
+Most of the launcher is free. A one-time **$6.99** purchase unlocks seven extras, and four top bar shortcuts instead of two:
 
 | Feature | What it does |
 |---|---|
 | **Icon Pack** | re-icon app cards from any installed pack |
-| **Custom App Icons** | set a different icon for any individual app |
+| **Change Icon** | set a different icon for any individual app, with search |
+| **Transparent Icons** | logos without their card, on a glass plate when focused |
+| **Custom Images** | your own picture for any app |
 | **Ambient Mode** | photo wallpapers in the screensaver |
 | **Pick Wallpaper** | use your own image as the background |
 | **Pick Video Wallpaper** | play a looping video behind the launcher |
