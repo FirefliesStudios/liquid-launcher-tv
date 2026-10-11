@@ -26,17 +26,18 @@ Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chrom
 ### Make it yours
 - Icon pack support, plus per-app icons with search across the whole pack
 - Transparent icons — logos without their card, on a glass plate when focused
-- Custom Images — your own picture for any app
+- Custom Images — your own picture for any app, and Reset All Icons to put every icon back
 - 16 gradient themes
 - Image and video wallpapers
 - Screensaver with clock, date, weather (°C or °F), and optional ambient photo mode
-- App Manager — choose your six favourites, organise folders, hide apps without uninstalling
+- App Manager — choose your six favourites, organise folders, hide apps without uninstalling (Show All brings every hidden app back)
 
 ### Controls
 - Hold **OK** on any app card for Move, Add to Folder, App Info, Change Icon and App Manager
 - Optional Back button override
 - Optional Home button override — the default-launcher role, or the accessibility service on TVs where the built-in launcher takes priority for the HOME key
 - Start on boot
+- Reset All — every setting back to how it came, keeping your apps, folders, favourites, hidden apps, icons and Premium
 
 ### Languages
 Available in over 80 languages, following whatever your TV is set to. Right-to-left
