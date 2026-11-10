@@ -8,7 +8,7 @@ A fast, minimal liquid-glass launcher for Android TV and Google TV. Zero clutter
 
 ## Download
 
-**[Get it on Google Play](#)** — *link at launch*
+**[Get it on Google Play](https://play.google.com/store/apps/details?id=com.jd.liquidlauncher.tv)**
 
 Requires **Android 9 (API 28)** or newer. Built for Android TV, Google TV, Chromecast with Google TV, and Google TV Streamer.
 
@@ -97,11 +97,9 @@ See [PRIVACY.md](PRIVACY.md).
 
 ---
 
-## Testing
+## Privacy
 
-Closed testing is open. Setup takes about five minutes: see [TESTING.md](TESTING.md).
-
-Short version: no accounts, no analytics, no ads, no tracking, and nothing about you is stored on any server. Two optional features make network requests — screensaver weather, which only ever knows the city you type in yourself, and Ambient Mode photos. Neither reports anything about you, and with both off the app never goes online.
+Full policy: [PRIVACY.md](PRIVACY.md). Short version: no accounts, no analytics, no ads, no tracking, and nothing about you is stored on any server. Two optional features make network requests — screensaver weather, which only ever knows the city you type in yourself, and Ambient Mode photos. Neither reports anything about you, and with both off the app never goes online.
 
 ---
 
